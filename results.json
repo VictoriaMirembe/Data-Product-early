@@ -1,0 +1,1050 @@
+{
+ "descriptive": {
+  "students_total": 86,
+  "students_complete": 81,
+  "incomplete_records": 5,
+  "avg_mark": 66.7,
+  "avg_cgpa": 3.46,
+  "at_risk_rate": 30.9,
+  "by_program": [
+   {
+    "STUDENT_PROGRAM": "DITB",
+    "n": 37,
+    "avg_mark": 63.1,
+    "cgpa": 3.12,
+    "at_risk": 0.51
+   },
+   {
+    "STUDENT_PROGRAM": "DITS",
+    "n": 44,
+    "avg_mark": 69.77,
+    "cgpa": 3.75,
+    "at_risk": 0.14
+   }
+  ],
+  "cu_avg": {
+   "DITB": [
+    64.4,
+    66.2,
+    60.5,
+    66.9,
+    67.8,
+    52.8
+   ],
+   "DITS": [
+    71.3,
+    64.1,
+    69.0,
+    72.3,
+    74.8,
+    67.2
+   ]
+  },
+  "cu_cw_ex": {
+   "cw": [
+    28.5,
+    27.3,
+    27.1,
+    33.1,
+    31.6,
+    29.7
+   ],
+   "ex": [
+    39.6,
+    37.7,
+    38.0,
+    36.8,
+    40.0,
+    31.0
+   ]
+  },
+  "mark_dist": [
+   6,
+   121,
+   146,
+   155,
+   58
+  ],
+  "mark_dist_labels": [
+   "<50",
+   "50-59",
+   "60-69",
+   "70-79",
+   "80+"
+  ],
+  "by_sex": [
+   {
+    "STUDENT_SEX": "F",
+    "n": 19,
+    "cgpa": 3.57,
+    "at_risk": 0.21
+   },
+   {
+    "STUDENT_SEX": "M",
+    "n": 62,
+    "cgpa": 3.43,
+    "at_risk": 0.34
+   }
+  ],
+  "by_study_time": [
+   {
+    "STUDY_TIME": "DAY",
+    "n": 43,
+    "cgpa": 3.59,
+    "at_risk": 0.28
+   },
+   {
+    "STUDY_TIME": "EVENING",
+    "n": 16,
+    "cgpa": 3.38,
+    "at_risk": 0.44
+   },
+   {
+    "STUDY_TIME": "WEEKEND",
+    "n": 22,
+    "cgpa": 3.27,
+    "at_risk": 0.27
+   }
+  ]
+ },
+ "diagnostic": {
+  "cu_fail_count": [
+   1,
+   0,
+   1,
+   0,
+   1,
+   16
+  ],
+  "corr_avgcw_avgmark": 0.66,
+  "corr_cw_mk_per_cu": [
+   0.36,
+   0.58,
+   0.6,
+   0.49,
+   0.59,
+   0.65
+  ],
+  "corr_matrix": [
+   [
+    1.0,
+    0.21,
+    0.33,
+    0.34,
+    0.22,
+    0.32
+   ],
+   [
+    0.21,
+    1.0,
+    0.22,
+    0.35,
+    0.23,
+    0.33
+   ],
+   [
+    0.33,
+    0.22,
+    1.0,
+    0.41,
+    0.41,
+    0.43
+   ],
+   [
+    0.34,
+    0.35,
+    0.41,
+    1.0,
+    0.48,
+    0.42
+   ],
+   [
+    0.22,
+    0.23,
+    0.41,
+    0.48,
+    1.0,
+    0.55
+   ],
+   [
+    0.32,
+    0.33,
+    0.43,
+    0.42,
+    0.55,
+    1.0
+   ]
+  ],
+  "exam_pct_of_max": 62.0,
+  "cw_pct_of_max": 73.9,
+  "risk_vs_ok_cw": {
+   "0": 30.3,
+   "1": 27.9
+  },
+  "scatter": [
+   [
+    31.7,
+    71.2,
+    0,
+    "DITB"
+   ],
+   [
+    26.5,
+    55.7,
+    1,
+    "DITB"
+   ],
+   [
+    29.5,
+    63.7,
+    0,
+    "DITB"
+   ],
+   [
+    30.3,
+    63.5,
+    1,
+    "DITB"
+   ],
+   [
+    29.2,
+    64.5,
+    0,
+    "DITB"
+   ],
+   [
+    27.5,
+    60.0,
+    1,
+    "DITB"
+   ],
+   [
+    28.0,
+    54.8,
+    1,
+    "DITB"
+   ],
+   [
+    29.2,
+    71.0,
+    0,
+    "DITB"
+   ],
+   [
+    28.3,
+    64.3,
+    0,
+    "DITB"
+   ],
+   [
+    29.2,
+    68.8,
+    0,
+    "DITB"
+   ],
+   [
+    27.3,
+    58.5,
+    1,
+    "DITB"
+   ],
+   [
+    26.3,
+    60.0,
+    1,
+    "DITB"
+   ],
+   [
+    31.5,
+    73.2,
+    0,
+    "DITB"
+   ],
+   [
+    27.8,
+    58.8,
+    1,
+    "DITB"
+   ],
+   [
+    27.8,
+    60.0,
+    1,
+    "DITB"
+   ],
+   [
+    29.3,
+    63.2,
+    0,
+    "DITB"
+   ],
+   [
+    26.3,
+    62.8,
+    1,
+    "DITB"
+   ],
+   [
+    32.5,
+    70.0,
+    0,
+    "DITB"
+   ],
+   [
+    29.7,
+    60.5,
+    1,
+    "DITB"
+   ],
+   [
+    31.7,
+    65.3,
+    1,
+    "DITB"
+   ],
+   [
+    29.5,
+    64.7,
+    1,
+    "DITB"
+   ],
+   [
+    29.2,
+    64.5,
+    0,
+    "DITB"
+   ],
+   [
+    28.3,
+    58.8,
+    1,
+    "DITB"
+   ],
+   [
+    28.5,
+    71.5,
+    0,
+    "DITB"
+   ],
+   [
+    27.8,
+    62.3,
+    0,
+    "DITB"
+   ],
+   [
+    24.8,
+    56.0,
+    1,
+    "DITB"
+   ],
+   [
+    30.7,
+    65.8,
+    0,
+    "DITB"
+   ],
+   [
+    29.5,
+    70.7,
+    0,
+    "DITB"
+   ],
+   [
+    30.0,
+    61.5,
+    1,
+    "DITB"
+   ],
+   [
+    31.2,
+    66.2,
+    0,
+    "DITB"
+   ],
+   [
+    28.0,
+    66.5,
+    1,
+    "DITB"
+   ],
+   [
+    31.5,
+    59.3,
+    1,
+    "DITB"
+   ],
+   [
+    30.8,
+    64.7,
+    0,
+    "DITB"
+   ],
+   [
+    32.8,
+    65.2,
+    0,
+    "DITB"
+   ],
+   [
+    31.2,
+    69.2,
+    0,
+    "DITB"
+   ],
+   [
+    24.0,
+    44.8,
+    1,
+    "DITB"
+   ],
+   [
+    28.8,
+    53.3,
+    1,
+    "DITB"
+   ],
+   [
+    32.0,
+    69.2,
+    0,
+    "DITS"
+   ],
+   [
+    29.0,
+    64.5,
+    0,
+    "DITS"
+   ],
+   [
+    29.5,
+    61.8,
+    0,
+    "DITS"
+   ],
+   [
+    28.7,
+    68.7,
+    0,
+    "DITS"
+   ],
+   [
+    27.2,
+    69.5,
+    0,
+    "DITS"
+   ],
+   [
+    33.2,
+    76.3,
+    0,
+    "DITS"
+   ],
+   [
+    30.2,
+    60.3,
+    1,
+    "DITS"
+   ],
+   [
+    31.8,
+    73.3,
+    0,
+    "DITS"
+   ],
+   [
+    33.5,
+    75.8,
+    0,
+    "DITS"
+   ],
+   [
+    24.7,
+    64.0,
+    0,
+    "DITS"
+   ],
+   [
+    25.8,
+    63.2,
+    1,
+    "DITS"
+   ],
+   [
+    34.3,
+    76.8,
+    0,
+    "DITS"
+   ],
+   [
+    32.5,
+    70.8,
+    0,
+    "DITS"
+   ],
+   [
+    30.0,
+    72.5,
+    0,
+    "DITS"
+   ],
+   [
+    21.3,
+    55.8,
+    1,
+    "DITS"
+   ],
+   [
+    29.5,
+    73.7,
+    0,
+    "DITS"
+   ],
+   [
+    32.3,
+    72.7,
+    0,
+    "DITS"
+   ],
+   [
+    30.2,
+    72.2,
+    0,
+    "DITS"
+   ],
+   [
+    31.7,
+    78.7,
+    0,
+    "DITS"
+   ],
+   [
+    28.8,
+    68.3,
+    0,
+    "DITS"
+   ],
+   [
+    33.0,
+    77.5,
+    0,
+    "DITS"
+   ],
+   [
+    28.8,
+    70.8,
+    0,
+    "DITS"
+   ],
+   [
+    28.0,
+    63.0,
+    0,
+    "DITS"
+   ],
+   [
+    33.5,
+    73.2,
+    0,
+    "DITS"
+   ],
+   [
+    31.5,
+    72.5,
+    0,
+    "DITS"
+   ],
+   [
+    29.0,
+    64.0,
+    0,
+    "DITS"
+   ],
+   [
+    27.0,
+    70.2,
+    0,
+    "DITS"
+   ],
+   [
+    30.3,
+    61.2,
+    1,
+    "DITS"
+   ],
+   [
+    32.2,
+    74.5,
+    0,
+    "DITS"
+   ],
+   [
+    32.8,
+    79.5,
+    0,
+    "DITS"
+   ],
+   [
+    32.3,
+    80.5,
+    0,
+    "DITS"
+   ],
+   [
+    28.7,
+    51.5,
+    1,
+    "DITS"
+   ],
+   [
+    31.0,
+    76.5,
+    0,
+    "DITS"
+   ],
+   [
+    29.2,
+    73.5,
+    0,
+    "DITS"
+   ],
+   [
+    29.0,
+    67.3,
+    0,
+    "DITS"
+   ],
+   [
+    25.2,
+    66.3,
+    0,
+    "DITS"
+   ],
+   [
+    31.0,
+    69.7,
+    0,
+    "DITS"
+   ],
+   [
+    27.0,
+    59.0,
+    1,
+    "DITS"
+   ],
+   [
+    31.7,
+    79.0,
+    0,
+    "DITS"
+   ],
+   [
+    29.2,
+    64.3,
+    0,
+    "DITS"
+   ],
+   [
+    32.2,
+    71.2,
+    0,
+    "DITS"
+   ],
+   [
+    31.0,
+    71.3,
+    0,
+    "DITS"
+   ],
+   [
+    27.0,
+    67.3,
+    0,
+    "DITS"
+   ],
+   [
+    29.8,
+    77.7,
+    0,
+    "DITS"
+   ]
+  ]
+ },
+ "predictive": {
+  "features": [
+   "CU1_CW",
+   "CU2_CW",
+   "CU3_CW",
+   "CU4_CW",
+   "CU5_CW",
+   "CU6_CW",
+   "IS_DITS",
+   "IS_FEMALE",
+   "STUDY_DAY",
+   "STUDY_EVENING",
+   "STUDY_WEEKEND"
+  ],
+  "n_train": 60,
+  "n_test": 21,
+  "models": {
+   "Logistic Regression": {
+    "accuracy": 0.81,
+    "recall": 1.0,
+    "precision": 0.6,
+    "f1": 0.75,
+    "cv_recall": 0.68,
+    "cv_accuracy": 0.67,
+    "confusion": [
+     [
+      11,
+      4
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   "Random Forest": {
+    "accuracy": 0.9,
+    "recall": 0.83,
+    "precision": 0.83,
+    "f1": 0.83,
+    "cv_recall": 0.56,
+    "cv_accuracy": 0.7,
+    "confusion": [
+     [
+      14,
+      1
+     ],
+     [
+      1,
+      5
+     ]
+    ]
+   }
+  },
+  "importance": [
+   [
+    "CU6_CW",
+    0.223
+   ],
+   [
+    "CU2_CW",
+    0.181
+   ],
+   [
+    "CU3_CW",
+    0.127
+   ],
+   [
+    "CU4_CW",
+    0.114
+   ],
+   [
+    "CU5_CW",
+    0.109
+   ],
+   [
+    "IS_DITS",
+    0.096
+   ],
+   [
+    "CU1_CW",
+    0.084
+   ],
+   [
+    "STUDY_EVENING",
+    0.022
+   ],
+   [
+    "IS_FEMALE",
+    0.019
+   ],
+   [
+    "STUDY_DAY",
+    0.014
+   ],
+   [
+    "STUDY_WEEKEND",
+    0.012
+   ]
+  ],
+  "lr_coef": {
+   "CU1_CW": -0.65,
+   "CU2_CW": -0.23,
+   "CU3_CW": -0.56,
+   "CU4_CW": -0.6,
+   "CU5_CW": -0.17,
+   "CU6_CW": -0.54,
+   "IS_DITS": -0.92,
+   "IS_FEMALE": -0.24,
+   "STUDY_DAY": -0.05,
+   "STUDY_EVENING": 0.19,
+   "STUDY_WEEKEND": -0.11
+  }
+ },
+ "prescriptive": {
+  "tier_counts": {
+   "High": 18,
+   "Medium": 14,
+   "Low": 49
+  },
+  "priority_cus": [
+   "CU6",
+   "CU1"
+  ],
+  "watchlist": [
+   [
+    "S0001033",
+    "DITB",
+    "DAY",
+    24.83,
+    0.94,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU3, CU6"
+   ],
+   [
+    "S0000722",
+    "DITB",
+    "DAY",
+    27.5,
+    0.92,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU3, CU6"
+   ],
+   [
+    "S0000776",
+    "DITB",
+    "EVENING",
+    26.33,
+    0.9,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU6"
+   ],
+   [
+    "S0001154",
+    "DITB",
+    "DAY",
+    24.0,
+    0.89,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU6"
+   ],
+   [
+    "S0000507",
+    "DITB",
+    "WEEKEND",
+    26.5,
+    0.88,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU3, CU6"
+   ],
+   [
+    "S0000735",
+    "DITB",
+    "DAY",
+    27.33,
+    0.87,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU3, CU6"
+   ],
+   [
+    "S0000942",
+    "DITB",
+    "DAY",
+    26.33,
+    0.86,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU6"
+   ],
+   [
+    "S0001069",
+    "DITB",
+    "WEEKEND",
+    28.0,
+    0.86,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU3"
+   ],
+   [
+    "S0000968",
+    "DITB",
+    "EVENING",
+    29.5,
+    0.85,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU6"
+   ],
+   [
+    "S0000925",
+    "DITB",
+    "EVENING",
+    27.83,
+    0.85,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU4, CU6"
+   ],
+   [
+    "S0000683",
+    "DITS",
+    "EVENING",
+    21.33,
+    0.84,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU2, CU4, CU5, CU6"
+   ],
+   [
+    "S0001190",
+    "DITB",
+    "WEEKEND",
+    28.83,
+    0.82,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU3"
+   ],
+   [
+    "S0000951",
+    "DITB",
+    "EVENING",
+    29.67,
+    0.76,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams"
+   ],
+   [
+    "S0000726",
+    "DITB",
+    "WEEKEND",
+    28.0,
+    0.76,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU3"
+   ],
+   [
+    "S0000674",
+    "DITS",
+    "DAY",
+    25.83,
+    0.74,
+    1,
+    "High",
+    "Assign academic mentor + weekly check-ins before exams; remedial focus: CU6"
+   ]
+  ]
+ },
+ "lms": {
+  "records": 1932,
+  "learner_records": 1840,
+  "never_pct": 20.0,
+  "recency": [
+   252,
+   669,
+   551,
+   368
+  ],
+  "recency_labels": [
+   "< 1 year",
+   "1-2 years",
+   "2+ years",
+   "Never logged in"
+  ],
+  "course_never": [
+   [
+    "ICT in Education",
+    56,
+    64.3
+   ],
+   [
+    "Essential IT Skills Development for Non-IT Professionals",
+    33,
+    57.6
+   ],
+   [
+    "LEADERSHIP SKILLS DEVELOPMENT FOR ICT PROFESSIONALS",
+    38,
+    42.1
+   ],
+   [
+    "Support for Development of Human Resources-ENABEL",
+    173,
+    37.0
+   ],
+   [
+    "Computer Workshop Practice",
+    40,
+    35.0
+   ],
+   [
+    "CLOUD COMPUTING -AWS",
+    129,
+    30.2
+   ],
+   [
+    "Digital Literacy Skills transfer Project",
+    56,
+    23.2
+   ],
+   [
+    "Website Development II",
+    204,
+    19.6
+   ],
+   [
+    "Data Communication and Networking II",
+    228,
+    9.6
+   ],
+   [
+    "Computer Workshop Practice I",
+    187,
+    9.6
+   ]
+  ]
+ },
+ "survey": {
+  "n": 278,
+  "gender": {
+   "Male": 209,
+   "Female": 69
+  },
+  "internet_yes_pct": 97.1,
+  "occupation": {
+   "Student": 115,
+   "Teacher/Trainer": 100,
+   "Other/Working": 63
+  },
+  "top_districts": {
+   "Kampala": 41,
+   "Wakiso": 38,
+   "Mbale": 11,
+   "Kyotera": 11,
+   "Mukono": 10,
+   "Lira": 9,
+   "Jinja": 8,
+   "Masaka": 7
+  },
+  "expectations": {
+   "Skills/knowledge": 174,
+   "Certificate": 28,
+   "Job/employment": 68,
+   "Business": 11,
+   "Cyber security": 10,
+   "Programming/networking": 13
+  }
+ }
+}

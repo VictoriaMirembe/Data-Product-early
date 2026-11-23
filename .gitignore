@@ -1,0 +1,7 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.streamlit/secrets.toml
+*.csv
+model.joblib
+.DS_Store
