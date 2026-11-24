@@ -42,11 +42,16 @@ jupyter notebook analysis_walkthrough.ipynb   # same pipeline, step by step with
 ```bash
 source .venv/bin/activate
 pip install streamlit                 # only if it is not installed yet
-python analysis.py                    # only if results.json, student_risk_scores.csv or model.joblib is missing
 streamlit run app.py
 ```
 
-Then open **http://localhost:8501** in a browser. The dashboard reads `results.json`, `student_risk_scores.csv` and `model.joblib`. Stop it with `Ctrl+C` in the terminal.
+Then open **http://localhost:8501** in a browser. Stop it with `Ctrl+C` in the terminal.
+
+The dashboard can run from `results.json` alone. In that mode it shows the precomputed summaries and the top 15 watchlist rows saved in the JSON; it cannot retrain the model, make live predictions, or show the full student watchlist. If `student_risk_scores.csv` and `model.joblib` are present, the dashboard uses them for the full watchlist and live predictions.
+
+Use the icon-based sidebar to switch analysis views. The diagnostic scatter plot can be filtered by programme and risk status, and the watchlist by support tier. The appearance setting supports both light and dark themes.
+
+To regenerate the analysis outputs, first put all four input CSVs listed under **Datasets** in this folder, then run `python analysis.py`. The analysis script cannot regenerate them from `results.json`.
 
 **Outputs**
 - `clean_performance.csv`: cleaned data for the 81 complete students, with the `AT_RISK` label
